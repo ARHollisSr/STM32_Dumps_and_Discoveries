@@ -58,7 +58,7 @@ int main(void)
 		//GPIOC_OD_R |= USER_LED3 | USER_LED4| USER_LED5 | USER_LED6;
 
 		/*Toggle LED3*/
-		GPIOC_OD_R ^= USER_LED3 | USER_LED6 | USER_LED4;
+		GPIOC_OD_R ^= USER_LED3 | USER_LED6;
 		for (int i = 0; i < 1000000; i++)
 		{
 
