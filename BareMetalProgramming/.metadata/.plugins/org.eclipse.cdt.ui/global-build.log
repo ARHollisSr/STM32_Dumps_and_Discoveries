@@ -1,0 +1,24 @@
+22:57:03 **** Incremental Build of configuration Debug for project 001GPIO_addr_config ****
+make -j7 all 
+arm-none-eabi-gcc "../Src/main.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F0 -DSTM32F072RBTx -DSTM32F072B_DISCO -c -I../Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/main.o"
+arm-none-eabi-gcc -o "001GPIO_addr_config.elf" @"objects.list"   -mcpu=cortex-m0 -T"/Users/hollis/Documents/EE/BareMetalProgramming/001GPIO_addr_config/STM32F072RBTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="001GPIO_addr_config.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: 001GPIO_addr_config.elf
+ 
+arm-none-eabi-objdump -h -S  001GPIO_addr_config.elf  > "001GPIO_addr_config.list"
+arm-none-eabi-objcopy  -O binary  001GPIO_addr_config.elf  "001GPIO_addr_config.bin"
+arm-none-eabi-size   001GPIO_addr_config.elf 
+   text	   data	    bss	    dec	    hex	filename
+    528	      8	   1568	   2104	    838	001GPIO_addr_config.elf
+Finished building: default.size.stdout
+ 
+Finished building: 001GPIO_addr_config.bin
+Finished building: 001GPIO_addr_config.list
+ 
+ 
+22:57:19 **** Incremental Build of configuration Debug for project 001GPIO_addr_config ****
+make -j7 all 
+arm-none-eabi-size   001GPIO_addr_config.elf 
+   text	   data	    bss	    dec	    hex	filename
+    528	      8	   1568	   2104	    838	001GPIO_addr_config.elf
+Finished building: default.size.stdout
+ 

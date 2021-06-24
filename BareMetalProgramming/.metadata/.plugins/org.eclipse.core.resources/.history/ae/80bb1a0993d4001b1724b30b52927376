@@ -1,0 +1,10 @@
+/*
+ * #if !defined(__SOFT_FP__) && defined(__ARM_FP)
+ * #warning "FPU is not initialized, but the project is compiling for an FPU. Please initialize the FPU before use."
+ * #endif
+*/
+
+//LD3 Connected to PC6
+//LD4 Connected to PC8
+//LD5 Connected to PC9
+//LD6 Connected to PC7
