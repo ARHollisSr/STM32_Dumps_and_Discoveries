@@ -15,5 +15,4 @@ void loop() {
   {
     dacWrite(25, value);
   }
-
 }
