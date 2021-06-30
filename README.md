@@ -1,2 +1,2 @@
-# STM32_Ideas_and_Practice
+# STM32 Ideas and Code Dumps
  Exploring Discovery Boards and other projects
