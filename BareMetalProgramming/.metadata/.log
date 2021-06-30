@@ -80,3 +80,6 @@ Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -keyring /Users/holli
 
 !ENTRY com.st.stm32cube.ide.mcu.ide 4 4 2021-06-23 22:43:59.968
 !MESSAGE com.st.stm32cube.ide.mcu.ide/META-INF/version/build_ref file not found, build reference will not be reported into properties
+
+!ENTRY org.eclipse.cdt.core 1 0 2021-06-24 19:39:16.818
+!MESSAGE Indexed '002GPIO_addr_config-struct' (3 sources, 53 headers) in 0.529 sec: 1,965 declarations; 2,838 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.042%)

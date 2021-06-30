@@ -36,6 +36,15 @@
 #define USER_LED5 			(1U<<9) //green
 #define USER_LED6 			(1U<<7) //blue
 
+typedef struct
+{
+
+}RCC_TypeDef;
+
+typedef struct
+{
+
+}GPIO_Type;
 
 int main(void)
 {
